@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phpoffice/phpexcel": "^1.8",
+        "codeinc/strip-accents": "^1.1"
+    }
+}

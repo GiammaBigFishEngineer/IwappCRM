@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'MyFont'; 
+  src: url('Arial.ttf');
+  font-style:normal;
+  font-weight:normal;
+}
+
+body {
+  min-height: 92vh;
+  min-height: -webkit-fill-available;
+  font-family: 'MyFont', sans-serif;
+}
+
+html {
+  height: -webkit-fill-available;
+}
+
+main {
+  height: 92vh;
+  height: -webkit-fill-available;
+  max-height: 92vh;
+}
+/*Mostrare Nascodendere filtro sezione Generale*/
+.my-div {
+  opacity: 0;
+  transition: opacity 0.2s ease-out;
+}
+
+.my-div.show {
+  opacity: 1;
+}
+
+.my-div.hide {
+  opacity: 0;
+}
+
+
+

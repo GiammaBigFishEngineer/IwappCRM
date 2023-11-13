@@ -1,0 +1,8 @@
+69ea9828048b Andrea BUldro
+64d979bb67aa Fabrizio Moro
+
+
+
+Collegare Invio Email Alla creazione Agente
+Migliorare grafica gestione File caricati e permettere di eliminarli.
+Implementare Pagamento Di Fattura tramite carta stripe.

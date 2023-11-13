@@ -1,0 +1,179 @@
+@font-face{
+    src:url('./Inter-Medium.woff2');
+    font-family: "Inter-Medium"
+}
+*{
+    
+    font-family: "Inter-Medium", sans-serif;
+}
+body {
+    margin: 0;
+    -webkit-text-size-adjust: 100%;
+    font-weight: normal;
+    font-family: "Inter-Medium", sans-serif;
+    
+}
+
+h1{
+    font-size: 60px;
+    color: #000;
+}
+h2{
+    font-size: 30px;
+    color:#000;
+}
+h2{
+    font-size: 25px;
+    color:#000;
+}
+
+.btnn {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  text-decoration: none;
+}
+.btnn:hover{
+    background: #313197;
+}
+nav {
+    background: transparent;
+    z-index: 100;
+ }
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  /* Centered text */
+  .center {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .center-2 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .floating { 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.responsive-hide{
+    opacity: 0;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 35px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+.fade-in-1 {
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+  }
+
+.fade-in-2 {
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+  }
+.fade-in-3 {
+    animation: fadeIn 3.2s;
+    -webkit-animation: fadeIn 3.2s;
+    -moz-animation: fadeIn 3.2s;
+    -o-animation: fadeIn 3.2s;
+    -ms-animation: fadeIn 3.2s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+@media (max-width: 1000px) {
+    h1{
+        font-size: 30px;
+        color: #000;
+    }
+    h2{
+        font-size: 15px;
+        color:#000;
+    }
+    h3{
+        font-size: 10px;
+        color:#000;
+    }
+    .btn {
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 14px;
+    }
+    .center{
+        position: relative;
+        top: 0%;
+        left: 0%;
+        transform: none;
+        margin-top: 20px;
+      }
+    .center-2{
+        margin-top: 20px;
+        top: 0%;
+        left: 50%;
+      }
+    .center-2 h2{
+        width: 300px;
+      }
+    .center-2 a{
+        width: 300px;
+      }
+}
